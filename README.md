@@ -14,4 +14,4 @@ This project is the process of understanding how to utilize SQLite3 for database
 ## Acknowledgments
 
 * Harrison - *Initial Work* - [sentdex](https://github.com/Sentdex)
-* [sentdex YouTube](YouTube.com/Sentdex)
+* [sentdex YouTube](https://www.youtube.com/results?search_query=sentdex)
