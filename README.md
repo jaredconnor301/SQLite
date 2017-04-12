@@ -6,6 +6,7 @@ This project is the process of understanding how to utilize SQLite3 for database
 
 * [Python](https://docs.python.org/3/)
 * [SQLite3](https://docs.python.org/2/library/sqlite3.html#module-sqlite3)
+
 ## Authors
 
 * **Jared Connor** - [jaredconnor301](https://github.com/jaredconnor301)
