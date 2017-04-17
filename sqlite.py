@@ -33,13 +33,37 @@ def dynamic_enter_data():
     #Save & Commit
     conn.commit()
 
-#create_table()
-#enter_data()
+#Reading data from data base
+def read_data():
+    c.execute("SELECT keyword, value, timestamp FROM plotstuff WHERE keyword='Python'")
 
+    for row in c.fetchall():
+        print(row)
+
+#Updating and deleting file
+def del_and_update():
+
+
+    t = int(random.randint(1,100))
+    c.execute("UPDATE plotstuff SET value = ? WHERE value = 't'", t)
+    conn.commit()
+
+    c.execute("DELETE FROM plotstuff WHERE ")
+    conn.commit()
+
+    c.execute("SELECT * FROM plotstuff")
+    [print(row) for row in c.fetchall()]
+
+
+#testing functions. Blocked out for nonuse
+'''
+create_table()
+enter_data()
 for i in range(10):
     dynamic_enter_data()
-    time.sleep(1)
-
+read_data()
+del_and_update()
+'''
 
 c.close()
 conn.close()
